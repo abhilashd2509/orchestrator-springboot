@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <!-- Centralized log directory (use absolute path or system property) -->
+        <Property name="LOG_BASE_DIR">D:/Spring_Workspace/Centime/microservices-parent/logs</Property>
+        
+        <!-- Common pattern with service name identification -->
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${sys:PID} [%15.15t] %-40.40c{1.} : %m%n%ex</Property>
+        
+        <Property name="MAX_FILE_SIZE">50MB</Property>
+        <Property name="MAX_HISTORY">30</Property>
+    </Properties>
+    
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- Service-specific rolling file -->
+        <RollingFile name="ServiceFile" 
+                     fileName="${LOG_BASE_DIR}/${sys:service.name}/service.log" 
+                     filePattern="${LOG_BASE_DIR}/${sys:service.name}/archived/service-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${MAX_FILE_SIZE}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${MAX_HISTORY}"/>
+        </RollingFile>
+
+        <!-- Centralized error log -->
+        <RollingFile name="CentralErrorFile" 
+                     fileName="${LOG_BASE_DIR}/errors.log" 
+                     filePattern="${LOG_BASE_DIR}/archived/errors-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="${MAX_FILE_SIZE}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${MAX_HISTORY}"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="ServiceFile"/>
+            <AppenderRef ref="CentralErrorFile" level="ERROR"/>
+        </Root>
+
+        <!-- Common library loggers -->
+        <Logger name="org.springframework" level="WARN"/>
+        <Logger name="org.hibernate" level="WARN"/>
+        <Logger name="com.zaxxer.hikari" level="INFO"/>
+    </Loggers>
+</Configuration>

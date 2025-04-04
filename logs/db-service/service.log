@@ -1,0 +1,18 @@
+2025-04-04 14:56:30.058  INFO 8748 [           main] o.d.DbServiceApplication                 : Starting DbServiceApplication using Java 21.0.4 with PID 8748 (D:\Spring_Workspace\Centime\microservices-parent\task2-db-service\target\classes started by medha in D:\Spring_Workspace\Centime\microservices-parent\task2-db-service)
+2025-04-04 14:56:30.069  INFO 8748 [           main] o.d.DbServiceApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-04-04 14:56:34.046  INFO 8748 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-04-04 14:56:34.466  INFO 8748 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-04 14:56:34.469  INFO 8748 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-04-04 14:56:37.807  WARN 8748 [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04 14:56:39.278  INFO 8748 [           main] o.d.DbServiceApplication                 : Started DbServiceApplication in 9.687 seconds (process running for 11.07)
+2025-04-04 16:14:41.095  INFO 12896 [           main] o.d.DbServiceApplication                 : Starting DbServiceApplication using Java 21.0.4 with PID 12896 (D:\Spring_Workspace\Centime\microservices-parent\task2-db-service\target\classes started by medha in D:\Spring_Workspace\Centime\microservices-parent\task2-db-service)
+2025-04-04 16:14:41.205  INFO 12896 [           main] o.d.DbServiceApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-04-04 16:14:44.281  INFO 12896 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-04-04 16:14:44.518  INFO 12896 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-04 16:14:44.520  INFO 12896 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-04-04 16:14:46.296  WARN 12896 [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04 16:14:47.340  INFO 12896 [           main] o.d.DbServiceApplication                 : Started DbServiceApplication in 6.677 seconds (process running for 7.965)
+2025-04-04 16:16:10.993  INFO 12896 [nio-8083-exec-2] c.d.s.CharacterClassService              : Fetching character class by ID: 1
+2025-04-04 16:16:14.138  INFO 12896 [nio-8083-exec-3] c.d.s.CharacterClassService              : Building character class hierarchy
+2025-04-04 16:27:01.852  INFO 12896 [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-04-04 16:27:01.856  INFO 12896 [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

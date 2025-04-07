@@ -21,6 +21,7 @@ public class LoggingAspect {
 	
 	private static final Logger log = LoggerFactory.getLogger(LoggingAspect.class);
 	
+	  
     @Before("@annotation(logMethodParam)")
     public void logMethodParams(JoinPoint joinPoint, LogMethodParam logMethodParam) {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();

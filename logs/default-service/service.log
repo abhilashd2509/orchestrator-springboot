@@ -1,0 +1,42 @@
+2025-04-07 20:54:56.756  INFO 9624 [           main] o.s.o.OrchestratorControllerTest         : Starting OrchestratorControllerTest using Java 21.0.4 with PID 9624 (started by medha in D:\Spring_Workspace\Centime\microservices-parent\service1-orchestrator)
+2025-04-07 20:54:56.779  INFO 9624 [           main] o.s.o.OrchestratorControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2025-04-07 20:54:59.914  INFO 9624 [           main] o.s.o.OrchestratorControllerTest         : Started OrchestratorControllerTest in 3.737 seconds (process running for 5.75)
+2025-04-07 20:55:00.375  INFO 9624 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: 2b1a3b3a-0e04-4a51-86cb-7f09da7e227f
+2025-04-07 20:55:00.515  INFO 9624 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: test-trace-id-123
+2025-04-07 20:55:00.518  INFO 9624 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 20:55:00.553  INFO 9624 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: d5831722-4e47-44ae-8349-24031dbcf444
+2025-04-07 20:55:00.554  INFO 9624 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 20:56:50.429  INFO 9544 [           main] o.s.o.OrchestratorControllerTest         : Starting OrchestratorControllerTest using Java 21.0.4 with PID 9544 (started by medha in D:\Spring_Workspace\Centime\microservices-parent\service1-orchestrator)
+2025-04-07 20:56:50.443  INFO 9544 [           main] o.s.o.OrchestratorControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2025-04-07 20:56:54.038  INFO 9544 [           main] o.s.o.OrchestratorControllerTest         : Started OrchestratorControllerTest in 4.213 seconds (process running for 6.388)
+2025-04-07 20:56:54.645  INFO 9544 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: 8b679e30-a678-4bb2-81f1-3b6d60fc3855
+2025-04-07 20:56:54.797  INFO 9544 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: test-trace-id-123
+2025-04-07 20:56:54.800  INFO 9544 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 20:56:54.839  INFO 9544 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: 57a49b9b-36c4-4683-914f-9d0cfb8818b5
+2025-04-07 20:56:54.840  INFO 9544 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 20:59:13.375  INFO 13796 [           main] o.s.o.OrchestratorControllerTest         : Starting OrchestratorControllerTest using Java 21.0.4 with PID 13796 (started by medha in D:\Spring_Workspace\Centime\microservices-parent\service1-orchestrator)
+2025-04-07 20:59:13.393  INFO 13796 [           main] o.s.o.OrchestratorControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2025-04-07 20:59:17.070  INFO 13796 [           main] o.s.o.OrchestratorControllerTest         : Started OrchestratorControllerTest in 4.547 seconds (process running for 7.337)
+2025-04-07 20:59:17.517  INFO 13796 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: a5dff72c-f88e-45c2-8c53-61c259198f4d
+2025-04-07 20:59:17.636  INFO 13796 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: test-trace-id-123
+2025-04-07 20:59:17.639  INFO 13796 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 20:59:17.668  INFO 13796 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: cdedba88-a1f8-43ef-988f-18e4a69fb9fe
+2025-04-07 20:59:17.669  INFO 13796 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 21:00:55.042  INFO 4360 [           main] c.s.o.OrchestratorApplication            : Starting OrchestratorApplication using Java 21.0.4 with PID 4360 (D:\Spring_Workspace\Centime\microservices-parent\service1-orchestrator\target\classes started by medha in D:\Spring_Workspace\Centime\microservices-parent\service1-orchestrator)
+2025-04-07 21:00:55.069  INFO 4360 [           main] c.s.o.OrchestratorApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-04-07 21:00:59.282  INFO 4360 [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-07 21:00:59.288  INFO 4360 [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-04-07 21:00:59.289  INFO 4360 [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-07 21:00:59.515  INFO 4360 [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-04-07 21:01:02.859  INFO 4360 [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2025-04-07 21:01:02.945  INFO 4360 [           main] c.s.o.OrchestratorApplication            : Started OrchestratorApplication in 8.903 seconds (process running for 11.104)
+2025-04-07 21:01:03.686  INFO 4360 [on(8)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 21:01:21.438  INFO 4360 [on(9)-127.0.0.1] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-07 21:07:23.311  INFO 2556 [           main] o.s.o.OrchestratorControllerTest         : Starting OrchestratorControllerTest using Java 21.0.4 with PID 2556 (started by medha in D:\Spring_Workspace\Centime\microservices-parent\service1-orchestrator)
+2025-04-07 21:07:23.330  INFO 2556 [           main] o.s.o.OrchestratorControllerTest         : No active profile set, falling back to 1 default profile: "default"
+2025-04-07 21:07:26.643  INFO 2556 [           main] o.s.o.OrchestratorControllerTest         : Started OrchestratorControllerTest in 3.902 seconds (process running for 5.872)
+2025-04-07 21:07:27.164  INFO 2556 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: d06e71c0-742e-40c6-9a76-704928328def
+2025-04-07 21:07:27.301  INFO 2556 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: test-trace-id-123
+2025-04-07 21:07:27.304  INFO 2556 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully
+2025-04-07 21:07:27.343  INFO 2556 [           main] c.s.o.c.OrchestratorController           : Starting orchestration with traceId: e950a60d-c304-4bba-b904-5277027e1689
+2025-04-07 21:07:27.344  INFO 2556 [           main] c.s.o.c.OrchestratorController           : Orchestration completed successfully

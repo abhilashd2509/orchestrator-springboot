@@ -13,6 +13,13 @@ public class CharacterClassResponse {
         this.color = builder.color;
         this.parentId = builder.parentId;
     }
+    
+    public CharacterClassResponse(Long id, String name, String color, Long parentId) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.parentId = parentId;
+    }
 
     // Getters
     public Long getId() { return id; }

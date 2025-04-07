@@ -1,23 +1,23 @@
 package com.service1.orchestrator.dto;
 
 public class OrchestratorResponse {
-	 private String message;
+	 private String response;
 
 	public OrchestratorResponse() {
 		
 	}
 
-	public OrchestratorResponse(String message) {
+	public OrchestratorResponse(String response) {
 	
-		this.message = message;
+		this.response = response;
 	}
 
-	public String getMessage() {
-		return message;
-	}
+	public String getResponse() {
+        return response;
+    }
 
-	public void setMessage(String message) {
-		this.message = message;
-	}
+    public void setResponse(String response) {
+        this.response = response;
+    }
 
 }
